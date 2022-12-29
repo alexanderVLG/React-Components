@@ -6,7 +6,7 @@ function Modal() {
 
   return (
     <div className="modal__container">
-      <Link to="/"><div className='next__btn'>Следующий пример</div></Link>
+      <Link to="/users"><div className='next__btn'>Следующий пример</div></Link>
 
       <button onClick={() => setOpen(true)} className="open-modal-btn">✨ Открыть окно</button>
       <div className={`overlay animated ${open ? "show" : ""}`}>
